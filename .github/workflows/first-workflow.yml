@@ -6,5 +6,9 @@ jobs:
     steps:
       - name: Print greeting
         run: echo "Hello, welcome!"
+      - name: Multi-line commands
+        run: |
+          echo "Output first line"
+          echo "Output second line"
       - name: Print closing message
         run: echo "Done - Ciao!!"
